@@ -1,6 +1,6 @@
 function Navigation(){
  return (
-     <nav>
+     <nav className="container">
       <div className='logo'>
         <img src="/logo.png" alt="logo" width={118} />
       </div>

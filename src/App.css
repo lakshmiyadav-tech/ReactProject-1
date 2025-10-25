@@ -13,6 +13,11 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 button{
     all: unset;
     padding: 6px 16px;
@@ -25,8 +30,6 @@ button{
 nav{
     display: flex;
     justify-content: space-between;
-    max-width: 1280px;
-    margin: 0 auto;
     height: 72px;
     align-items: center;
 }
@@ -35,4 +38,40 @@ nav ul{
     display: flex;
     list-style: none;
     gap: 24px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    height: calc(100vh-72px);
+}
+
+.hero h1{
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 102px;
+}
+
+.hero p{
+    font-weight: 600;
+    color: var(--gray);
+}
+
+.hero-btn{
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+
+}
+
+.secondary-btn{
+    background-color: transparent;
+    color: black;
+    border: 2px black solid;  
+    margin-bottom: 10px;
+}
+
+.shopping{
+    display: flex;
+    flex-direction: column;
 }
